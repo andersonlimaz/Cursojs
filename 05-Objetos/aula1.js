@@ -6,7 +6,7 @@ obj literal ex:
 */
 
 const victor = {
-    nome: 'victor J Guerra', 
+    nome: 'victor J Guerra',
     idade: 25
 };
 
