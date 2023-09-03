@@ -1,7 +1,7 @@
 const pessoa = {
-    nome: 'victor J Guerra', 
+    nome: 'victor J Guerra',
     idade: 25,
-    descrever: function(){
+    descrever: function () {
         this
         console.log('Meu nome é ' + this.nome + ' e minha idade é ' + this.idade);
     }
@@ -15,4 +15,4 @@ const pessoa = {
 // acesso dinamico
 pessoa['nome'] = 'teste';
 // acesso direto
-pessoa.nome ='teste';
+pessoa.nome = 'teste';
