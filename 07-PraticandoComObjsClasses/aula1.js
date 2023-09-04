@@ -15,8 +15,16 @@ class Carros{
         this.GastoMedioPorKm = GastoMedioPorKm;
 
     }
+
+    calcularGastoPercurso(distanciaKm,precoCombustivel){
+        return distanciaKm * this.GastoMedioPorKm * precoCombustivel
+    }
 }
 
 
-const Panamera = new Carros('Porchea', 'blue', 1/5)
-console.log(Panamera)
+const Panamera = new Carros('Porchea', 'blue', 1/12)
+resultado = Panamera.calcularGastoPercurso (70, 5)
+console.log(resultado)
+
+const palio = new Carros('Fiat', 'Azul', 1/10);
+console.log(palio.calcularGastoPercurso(70,5))
