@@ -14,3 +14,4 @@ http://127.0.0.1:3000
 toda solicitação de um recurso o method diz o que queremos fazer. 
 Resquet Method: GET | POST | PUT | DELETE | PATCH
 
+hearders = são metadados da nossa requisição servem para descrevê-la, configuração da requisição
