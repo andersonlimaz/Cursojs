@@ -1,0 +1,16 @@
+protocolo http, é um protocolo cliente servidor. 
+para obter mais informações abre o inspeção > network > hearders 
+preview mostra o que esta acontencento. 
+
+Url path e Method 
+
+requisição Http 
+
+Url: http://pokeapi.co/pu/v2/pokemon
+    ${Endereço}/${path = caminho de identificação do recurso}
+IP: https://pokeapi.co
+http://127.0.0.1:3000
+
+toda solicitação de um recurso o method diz o que queremos fazer. 
+Resquet Method: GET | POST | PUT | DELETE | PATCH
+
