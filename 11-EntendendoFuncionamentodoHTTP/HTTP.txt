@@ -15,3 +15,15 @@ toda solicitação de um recurso o method diz o que queremos fazer.
 Resquet Method: GET | POST | PUT | DELETE | PATCH
 
 hearders = são metadados da nossa requisição servem para descrevê-la, configuração da requisição
+
+
+
+-------------------------------------------------------
+Resquet hearders
+    content-type: aplication/json
+
+Resquet Body{
+    "name": "Teste"
+} 
+
+Status Code: Numero que volta, que tras o resultado da requisição, cada numero significa alguma coisa. 
